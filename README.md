@@ -3,6 +3,8 @@
 Parses Korean stock data and draws a graph.  
 > 한국의 주식 데이터를 파싱하고, 그래프를 그려줍니다.  
 
+<img src="/samples/kakao.png" width="600">  
+
 ## Background
 
 - Parses stock codes from [KIND공시 - 한국거래소](http://kind.krx.co.kr/)  
