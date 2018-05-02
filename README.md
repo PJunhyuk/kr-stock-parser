@@ -1,7 +1,12 @@
 # kr-stock-parser
 
-한국의 주식 데이터를 파싱하고, 그래프를 그려줍니다.  
 Parses Korean stock data and draws a graph.  
+> 한국의 주식 데이터를 파싱하고, 그래프를 그려줍니다.  
+
+## Background
+
+- Parses stock codes from [KIND공시 - 한국거래소](kind.krx.co.kr/)  
+- Parses stock data from [NAVER Finance - 네이버](http://finance.naver.com)  
 
 ## Install  
 `$ git clone https://github.com/PJunhyuk/kr-stock-parser.git`
@@ -16,8 +21,8 @@ Parses Korean stock data and draws a graph.
 ## Usage  
 `$ python get_stock.py`
 
-> You have to change routes of custom font for using visualizer  
-> It's in (functions.py)[https://github.com/PJunhyuk/kr-stock-parser/blob/master/functions.py]  
+> You have to change routes of custom font for using visualizer.  
+> It's in [functions.py](https://github.com/PJunhyuk/kr-stock-parser/blob/master/functions.py)  
 
 #### Arguments
 
