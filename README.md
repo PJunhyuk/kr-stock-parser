@@ -5,7 +5,7 @@ Parses Korean stock data and draws a graph.
 
 ## Background
 
-- Parses stock codes from [KIND공시 - 한국거래소](kind.krx.co.kr/)  
+- Parses stock codes from [KIND공시 - 한국거래소](http://kind.krx.co.kr/)  
 - Parses stock data from [NAVER Finance - 네이버](http://finance.naver.com)  
 
 ## Install  
@@ -21,8 +21,7 @@ Parses Korean stock data and draws a graph.
 ## Usage  
 `$ python get_stock.py`
 
-> You have to change routes of custom font for using visualizer.  
-> It's in [functions.py](https://github.com/PJunhyuk/kr-stock-parser/blob/master/functions.py)  
+> You have to change custom font routes to use visualizer. (It's in [functions.py](https://github.com/PJunhyuk/kr-stock-parser/blob/master/functions.py))  
 
 #### Arguments
 
