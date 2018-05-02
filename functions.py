@@ -29,8 +29,10 @@ def draw_plot(stock_name, df):
     from matplotlib import font_manager, rc
 
     # YOU HAVE TO CHANGE FOLLOWING LINE
-    font_location = '/Library/Fonts/NanumBarunGothic.otf'
-    # font_location = 'C:/Windows/Fonts/NanumBarunGothic.ttf'
+    ## for macOS - sample
+    # font_location = '/Library/Fonts/NanumBarunGothic.otf'
+    ## for Windows - sample
+    font_location = 'C:/Windows/Fonts/NanumBarunGothic.ttf'
 
     font_name = font_manager.FontProperties(fname=font_location).get_name()
 
